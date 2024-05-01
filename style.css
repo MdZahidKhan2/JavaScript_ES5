@@ -1,0 +1,32 @@
+#box {
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(red,green,red,white,red,blue,red ,black);
+    border-radius: 50%;
+    animation: anime  2s linear infinite;
+    border: 3px solid black;
+    margin: 30px 35%;
+    
+    
+    
+    
+}
+
+.boxes {
+    height: 500px;
+    width: 1000px;
+    background: green;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    padding-top: 2rem;
+    text-align: center;
+    
+
+
+}
+
+@keyframes anime {
+    100%{
+        rotate: 360deg;
+    }
+}
